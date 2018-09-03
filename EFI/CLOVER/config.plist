@@ -319,7 +319,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -365,15 +365,13 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
-			<key>Linux</key>
-			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1024x768</string>
+		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>bluemac</string>
+		<string>OS</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
