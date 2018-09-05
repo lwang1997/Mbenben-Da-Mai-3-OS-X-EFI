@@ -1,0 +1,86 @@
+8:141  6:236  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+8:141  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+8:141  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+8:383  0:241    (Xsdt: 9CFFE1C0, Rsdt: 9CFFE0FC)
+8:383  0:000    9CFFE1C0: 'XSDT', 'QUANTA', Rev: 1, Len: 204 -> XSDT.aml
+8:463  0:079    9CFFE0FC: 'RSDT', 'QUANTA', Rev: 1, Len: 120 -> RSDT.aml
+8:530  0:066    Tables in Xsdt: 21
+8:530  0:000    0. 9CFFB000: 'FACP', 'QUANTA', Rev: 5, Len: 268 -> FACP.aml
+8:599  0:069        (Dsdt: 9CFE0000, Facs: 9CEF6000, XDsdt: 9CFE0000, XFacs: 0)
+8:599  0:000        9CFE0000: 'DSDT', 'BDW', Rev: 2, Len: 89008 -> DSDT.aml
+8:688  0:089        9CEF6000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+8:756  0:067    1. 9CFFD000: 'ASF!', 'QUANTA', Rev: 32, Len: 165 -> ASF!.aml
+8:823  0:067    2. 9CFFA000: 'HPET', 'QUANTA', Rev: 1, Len: 56 -> HPET.aml
+8:891  0:067    3. 9CFF9000: 'LPIT', 'QUANTA', Rev: 1, Len: 148 -> LPIT.aml
+8:960  0:069    4. 9CFF8000: 'APIC', 'QUANTA', Rev: 1, Len: 152 -> APIC.aml
+9:028  0:068    5. 9CFF7000: 'MCFG', 'QUANTA', Rev: 1, Len: 60 -> MCFG.aml
+9:096  0:067    6. 9CFF6000: 'WDAT', 'QUANTA', Rev: 1, Len: 260 -> WDAT.aml
+9:163  0:067    7. 9CFDC000: 'SSDT', 'PtidDevc', Rev: 2, Len: 13359 -> SSDT-0.aml
+9:231  0:067    8. 9CFDB000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337 -> SSDT-1.aml
+9:804  0:572    9. 9CFDA000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932 -> SSDT-2.aml
+9:899  0:095    10. 9CFD3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 25338 -> SSDT-3.aml
+9:987  0:088    11. 9CFD2000: 'SSDT', 'SgPch', Rev: 2, Len: 2771 -> SSDT-4.aml
+10:073  0:085    12. 9CFD1000: 'UEFI', 'QUANTA', Rev: 1, Len: 66 -> UEFI.aml
+10:158  0:084    13. 9CED2000: 'POAT', 'QUANTA', Rev: 3, Len: 85 -> POAT.aml
+10:243  0:084    14. 9CFD0000: 'BATB', 'QUANTA', Rev: 1, Len: 70 -> BATB.aml
+10:327  0:084    15. 9CFCF000: 'FPDT', 'QUANTA', Rev: 1, Len: 100 -> FPDT.aml
+10:411  0:084    16. 9CFCE000: 'SLIC', 'QUANTA', Rev: 1, Len: 374 -> SLIC.aml
+10:497  0:085    17. 9CFCD000: 'SSDT', 'NvOptPch', Rev: 1, Len: 2878 -> SSDT-5.aml
+10:582  0:084    18. 9CFCC000: 'UEFI', 'QUANTA', Rev: 1, Len: 638 -> UEFI.aml
+10:713  0:131    19. 9CFCB000: 'BGRT', 'QUANTA', Rev: 1, Len: 56 -> BGRT.aml
+10:798  0:084    20. 9CFCA000: 'DMAR', 'QUANTA', Rev: 1, Len: 212 -> DMAR.aml
+10:882  0:084    Tables in Rsdt: 21
+10:882  0:000    0. 9CFFB000: 'FACP', 'QUANTA', Rev: 5, Len: 268
+10:882  0:000        (Dsdt: 9CFE0000, Facs: 9CEF6000, XDsdt: 9CFE0000, XFacs: 0)
+10:882  0:000        9CFE0000: 'DSDT', 'BDW', Rev: 2, Len: 89008
+10:882  0:000        9CEF6000: 'FACS', Ver: 2, Len: 64
+10:882  0:000    1. 9CFFD000: 'ASF!', 'QUANTA', Rev: 32, Len: 165
+10:882  0:000    2. 9CFFA000: 'HPET', 'QUANTA', Rev: 1, Len: 56
+10:882  0:000    3. 9CFF9000: 'LPIT', 'QUANTA', Rev: 1, Len: 148
+10:882  0:000    4. 9CFF8000: 'APIC', 'QUANTA', Rev: 1, Len: 152
+10:882  0:000    5. 9CFF7000: 'MCFG', 'QUANTA', Rev: 1, Len: 60
+10:882  0:000    6. 9CFF6000: 'WDAT', 'QUANTA', Rev: 1, Len: 260
+10:882  0:000    7. 9CFDC000: 'SSDT', 'PtidDevc', Rev: 2, Len: 13359
+10:882  0:000    8. 9CFDB000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+10:882  0:000    9. 9CFDA000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+10:882  0:000    10. 9CFD3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 25338
+10:882  0:000    11. 9CFD2000: 'SSDT', 'SgPch', Rev: 2, Len: 2771
+10:882  0:000    12. 9CFD1000: 'UEFI', 'QUANTA', Rev: 1, Len: 66
+10:882  0:000    13. 9CED2000: 'POAT', 'QUANTA', Rev: 3, Len: 85
+10:882  0:000    14. 9CFD0000: 'BATB', 'QUANTA', Rev: 1, Len: 70
+10:882  0:000    15. 9CFCF000: 'FPDT', 'QUANTA', Rev: 1, Len: 100
+10:882  0:000    16. 9CFCE000: 'SLIC', 'QUANTA', Rev: 1, Len: 374
+10:882  0:000    17. 9CFCD000: 'SSDT', 'NvOptPch', Rev: 1, Len: 2878
+10:882  0:000    18. 9CFCC000: 'UEFI', 'QUANTA', Rev: 1, Len: 638
+10:882  0:000    19. 9CFCB000: 'BGRT', 'QUANTA', Rev: 1, Len: 56
+10:882  0:000    20. 9CFCA000: 'DMAR', 'QUANTA', Rev: 1, Len: 212
+10:882  0:000  Found UEFI Acpi 1.0 RSDP at 9CFFE000
+10:882  0:000  Printing ACPI tables from RSDP 9CFFE000 ...
+10:882  0:000   9CFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+10:882  0:000    (Rsdt: 9CFFE038)
+10:882  0:000    9CFFE038: 'RSDT', 'QUANTA', Rev: 1, Len: 120
+10:882  0:000    Tables in Rsdt: 21
+10:882  0:000    0. 9CFFC000: 'FACP', 'QUANTA', Rev: 1, Len: 116
+10:882  0:000        (Dsdt: 9CFE0000, Facs: 9CEF6000)
+10:882  0:000        9CFE0000: 'DSDT', 'BDW', Rev: 2, Len: 89008
+10:882  0:000        9CEF6000: 'FACS', Ver: 2, Len: 64
+10:882  0:000    1. 9CFFD000: 'ASF!', 'QUANTA', Rev: 32, Len: 165
+10:882  0:000    2. 9CFFA000: 'HPET', 'QUANTA', Rev: 1, Len: 56
+10:882  0:000    3. 9CFF9000: 'LPIT', 'QUANTA', Rev: 1, Len: 148
+10:882  0:000    4. 9CFF8000: 'APIC', 'QUANTA', Rev: 1, Len: 152
+10:882  0:000    5. 9CFF7000: 'MCFG', 'QUANTA', Rev: 1, Len: 60
+10:882  0:000    6. 9CFF6000: 'WDAT', 'QUANTA', Rev: 1, Len: 260
+10:882  0:000    7. 9CFDC000: 'SSDT', 'PtidDevc', Rev: 2, Len: 13359
+10:882  0:000    8. 9CFDB000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+10:882  0:000    9. 9CFDA000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+10:882  0:000    10. 9CFD3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 25338
+10:882  0:000    11. 9CFD2000: 'SSDT', 'SgPch', Rev: 2, Len: 2771
+10:883  0:000    12. 9CFD1000: 'UEFI', 'QUANTA', Rev: 1, Len: 66
+10:883  0:000    13. 9CED2000: 'POAT', 'QUANTA', Rev: 3, Len: 85
+10:883  0:000    14. 9CFD0000: 'BATB', 'QUANTA', Rev: 1, Len: 70
+10:883  0:000    15. 9CFCF000: 'FPDT', 'QUANTA', Rev: 1, Len: 100
+10:883  0:000    16. 9CFCE000: 'SLIC', 'QUANTA', Rev: 1, Len: 374
+10:883  0:000    17. 9CFCD000: 'SSDT', 'NvOptPch', Rev: 1, Len: 2878
+10:883  0:000    18. 9CFCC000: 'UEFI', 'QUANTA', Rev: 1, Len: 638
+10:883  0:000    19. 9CFCB000: 'BGRT', 'QUANTA', Rev: 1, Len: 56
+10:883  0:000    20. 9CFCA000: 'DMAR', 'QUANTA', Rev: 1, Len: 212
