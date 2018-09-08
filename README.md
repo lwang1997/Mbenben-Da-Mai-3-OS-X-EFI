@@ -6,13 +6,13 @@
 
 2.睡眠唤醒黑屏
 
-黑苹果安装教程：https://www.bilibili.com/video/av19235761/
+### 黑苹果安装教程：https://www.bilibili.com/video/av19235761/
 
-镜像下载：https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/
+### 镜像下载：https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/
 
-By LuoWang.
+Mbenben-Da-Mai-3-OS-X-EFI By LuoWang.
 
-一键开启 macOS HiDPI：
+### 一键开启 macOS HiDPI：
 
 GitHub地址：https://github.com/xzhih/one-key-hidpi
 
@@ -20,7 +20,7 @@ GitHub地址：https://github.com/xzhih/one-key-hidpi
 
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi-zh.sh)"```
 
-终端实用命令：
+### 终端实用命令：
 
 一、开启QuickTime自动播放功能
  
