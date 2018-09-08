@@ -188,6 +188,8 @@
 		</array>
 		<key>FixHeaders</key>
 		<true/>
+		<key>PatchAPIC</key>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -211,7 +213,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 kext-dev-mode=1</string>
+		<string>nv_disable=1 -gux_defer_usb2 kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>macOS10136</string>
 		<key>NeverHibernate</key>
@@ -377,8 +379,15 @@
 	<dict>
 		<key>EDID</key>
 		<dict>
+			<key>Custom</key>
+			<data>
+			AP///////wAGr7U2AAAAAAAXAQSVIhN4AtEVnllTmyceUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEBeDeAtHA4LkBsMKoAWMEQAAAYAAAADwAA
+			AAAAAAAAAAAAAAAgAAAA/gBBVU8KICAgICAgICAgAAAA/gBCMTU2
+			SFROMDMuNiAKAM8=
+			</data>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -681,17 +690,17 @@
 		<key>#ProductName-MacBookPro12</key>
 		<string>MacBookPro12,1</string>
 		<key>BiosReleaseDate</key>
-		<string>04/09/2018</string>
+		<string>06/05/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP142.88Z.0175.B00.1804091703</string>
+		<string>MBP121.88Z.0177.B00.1806051659</string>
 		<key>Board-ID</key>
-		<string>Mac-CAD6701F7CEA0921</string>
+		<string>Mac-E43C1C25D4880AD6</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02719101OPFF4JAD</string>
+		<string>C02602802CDF2FR1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -715,15 +724,15 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,2</string>
+		<string>MacBookPro12,1</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for Broadwell identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02TQ196HV2N</string>
+		<string>C02R3QZMH1DP</string>
 		<key>SmUUID</key>
-		<string>5951EB3F-098C-5B56-A477-7DE1B2D2896C</string>
+		<string>697CA98A-C869-40DB-ACD9-EEA87B9F8DB8</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -731,6 +740,8 @@
 	<dict>
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
+		<key>BacklightLevel</key>
+		<string>0xFFFFF</string>
 		<key>CustomUUID</key>
 		<string>5951EB3F-098C-5B56-A477-7DE1B2D2896C</string>
 		<key>InjectKexts</key>
