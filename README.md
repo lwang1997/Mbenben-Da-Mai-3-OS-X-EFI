@@ -18,7 +18,7 @@ GitHub地址：https://github.com/xzhih/one-key-hidpi
 
 在终端输入以下命令回车即可
 
-···sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi-zh.sh)"
+·sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi-zh.sh)"··
 
 终端实用命令：
 
