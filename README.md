@@ -40,6 +40,7 @@ GitHub地址：https://github.com/xzhih/one-key-hidpi
 四、隐藏某个目录
  
 ```chflags hidden``` （有个空格）
+
 去隐藏— ```chflags nohidden``` （有个空格）
  
 五、清除字体缓存
