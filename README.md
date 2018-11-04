@@ -1,5 +1,7 @@
 # Mbenben-Da-Mai-3-OS-X-EFI
 
+### 麦本本大麦3 0S X 10.13 EFI：https://raw.githubusercontent.com/lwang1997/Mbenben-Da-Mai-3-OS-X-EFI/master/10.13%20EFI.zip
+
 ### 存在问题：
 
 1.无线网卡没有驱动，无解，请用USB网卡或更换网卡
