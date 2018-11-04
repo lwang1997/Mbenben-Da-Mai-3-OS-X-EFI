@@ -1,7 +1,9 @@
-# Mbenben-Da-Mai-3-OS-X-EFI
+# Mbenben-Da-Mai-3-OS-X-EFI By LuoWang.
 
-### 麦本本 大麦3 0S X 10.13 EFI：https://raw.githubusercontent.com/lwang1997/Mbenben-Da-Mai-3-OS-X-EFI/master/10.13%20EFI.zip
-### 麦本本 大麦3 OS X 10.14 EFI：https://raw.githubusercontent.com/lwang1997/Mbenben-Da-Mai-3-OS-X-EFI/master/10.14%20EFI.zip
+### 麦本本 大麦3 0S X 10.13 EFI：
+https://raw.githubusercontent.com/lwang1997/Mbenben-Da-Mai-3-OS-X-EFI/master/10.13%20EFI.zip
+### 麦本本 大麦3 OS X 10.14 EFI：
+https://raw.githubusercontent.com/lwang1997/Mbenben-Da-Mai-3-OS-X-EFI/master/10.14%20EFI.zip
 
 ### 存在问题：
 
@@ -9,11 +11,11 @@
 
 2.睡眠唤醒黑屏
 
-### 黑苹果安装教程：https://www.bilibili.com/video/av19235761/
+### 黑苹果安装教程：
+https://www.bilibili.com/video/av19235761/
 
-### 镜像下载：https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/
-
-Mbenben-Da-Mai-3-OS-X-EFI By LuoWang.
+### 镜像下载：
+https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/
 
 ### 一键开启 macOS HiDPI：
 
